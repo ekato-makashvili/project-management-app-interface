@@ -51,7 +51,7 @@ const Menu = () => {
         </li>
       </ul>
       <div className="flex ml-14 mt-[155px]">
-        <TbLogout className="w-6 h-6 mr-3 hover:text-[#da51d5] pixel:top-[500px]" />
+        <TbLogout className="w-6 h-6 mr-3 hover:text-[#da51d5]" />
         <p className="hover:underline decoration-[#00B0D7] lg:block pixel:hidden">
           Logout
         </p>

@@ -21,7 +21,7 @@ const Nav = () => {
           <input className="border-2 rounded-md lg:w-56 pixel:w-36 py-1 hover:border-gray-400"></input>
         </li>
         {/* Notifications */}
-        <li className="lg:ml-[525px] pixel:ml-5">
+        <li className="lg:ml-[555px] pixel:ml-5">
           {/*Dot on the Notification bell*/}
           <div className="absolute rounded-full h-1.5 w-1.5 bg-[#FF0000] ml-3.5 border hover:border-[#da51d5]"></div>{" "}
           <IoNotificationsOutline className="w-6 h-6 hover:stroke-[#da51d5]" />
@@ -32,10 +32,10 @@ const Nav = () => {
           <img
             src="./avatars/avatar-4.jpg"
             alt=""
-            className="w-8 h-8 rounded-full border-2 border-transparent hover:border-[#00B0D7]"
+            className="w-8 h-8 rounded-full border-2 border-transparent hover:border-[#00B0D7] lg:block pixel:hidden"
           />
           {/* User Name and Position */}
-          <ul className="ml-3">
+          <ul className="ml-3 [&>li]:lg:block [&>li]:pixel:hidden">
             <li className="text-xs text-black hover:underline decoration-[#00B0D7]">
               User name
             </li>
