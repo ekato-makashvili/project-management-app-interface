@@ -14,7 +14,7 @@ const Menu = () => {
     "
     >
       <ul
-        className="lg:[&>li>svg]:w-6 lg:[&>li>svg]:h-5 pixel:[&>li>svg]:w-8 pixel:[&>li>svg]:h-8 [&>li>svg]:h-6 lg:[&>li>p]:decoration-[#00B0D7]
+        className="lg:[&>li>svg]:w-6 lg:[&>li>svg]:h-6 pixel:[&>li>svg]:w-8 pixel:[&>li>svg]:h-8 [&>li>svg]:h-6 lg:[&>li>p]:decoration-[#00B0D7]
       [&>li]:flex [&>li]:mt-10 [&>li>svg]:ml-10 [&>li>svg]:mr-5 lg:[&>li>p]:list-item pixel:[&>li>p]:hidden"
       >
         <li>
