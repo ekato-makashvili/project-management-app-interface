@@ -12,7 +12,7 @@ const Main = () => {
         <div className="flex place-items-center pt-7 mb-6">
           <div className="[&>p]:decoration-[#00B0D7]">
             <p className="text-xl hover:underline">Reporting</p>
-            <p className="text-xs hover:underline lg:block pixel:hidden">
+            <p className="text-xs hover:underline">
               All project in current month
             </p>
           </div>
@@ -22,7 +22,7 @@ const Main = () => {
             text-xl w-8 h-8 font-normal
             bg-[#00B0D7] text-white rounded-md border-2 border-transparent
             hover:text-[#da51d5] hover:border-[#da51d5]
-            text-center pt-[1px] absolute right-0 mr-12"
+            text-center pt-[1px] absolute right-0 lg:mr-12 pixel:mr-40"
           >
             +
           </div>
@@ -39,7 +39,7 @@ const Main = () => {
             [&>li>div]:w-10 [&>li>div]:h-10
             [&>li>div]:border-2 [&>li>div]:border-transparent
             [&>li>p]:decoration-[#00B0D7] [&>li>div>p]:decoration-[#00B0D7]
-            lg:flex [&>li]:flex [&>li]:place-items-center
+            flex [&>li]:flex [&>li]:place-items-center
             mr-60 [&>li]:mr-9 [&>li>p]:mr-3 [&>li>div>p]:m-3 pixel:hidden"
           >
             <li>
@@ -72,7 +72,7 @@ const Main = () => {
           <ul
             className="
           [&>li]:h-10 [&>li]:rounded-lg [&>li]:bg-white [&>li]:border-2 [&>li]:border-transparent
-          lg:flex absolute right-0 lg:mr-8 [&>li]:mr-4 [&>li>*]:mt-3 pixel:hidden"
+          flex absolute right-0 mr-8 [&>li]:mr-4 [&>li>*]:mt-3 pixel:hidden"
           >
             <li className="flex w-20 hover:border-[#da51d5]">
               <VscSettings className="mx-2 hover:text-[#da51d5]" />

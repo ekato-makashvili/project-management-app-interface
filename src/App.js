@@ -2,6 +2,7 @@ import Main from "./components/main/Main";
 import Menu from "./components/menu/Menu";
 import Nav from "./components/nav/Nav";
 
+
 function App() {
   return (
     <div className="text-[#5F5E61]">

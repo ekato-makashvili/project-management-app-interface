@@ -2,6 +2,9 @@ import React from "react";
 import { AiOutlineAim } from "react-icons/ai";
 import { IoAlarmOutline } from "react-icons/io5";
 import { BsPlusCircle } from "react-icons/bs";
+import avatar1 from "../../assets/avatar-1.png"
+import avatar2 from "../../assets/avatar-2.jpg"
+import avatar3 from "../../assets/avatar-3.jpg"
 
 const CardTemplate = (props) => {
   return (
@@ -43,21 +46,21 @@ const CardTemplate = (props) => {
         >
           <li className="hover:border-spacing-3">
             <img
-              src="./avatars/avatar-1.png"
+              src={avatar1}
               alt="avatar"
               className="hover:outline-[#da51d5]"
             />
           </li>
           <li>
             <img
-              src="./avatars/avatar-2.jpg"
+              src={avatar2}
               alt="avatar"
               className="hover:outline-[#da51d5]"
             />
           </li>
           <li>
             <img
-              src="./avatars/avatar-3.jpg"
+              src={avatar3}
               alt="avatar"
               className="hover:outline-[#da51d5]"
             />
